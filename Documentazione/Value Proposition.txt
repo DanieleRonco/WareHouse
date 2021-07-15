@@ -1,0 +1,7 @@
+VALUE PROPOSITION
+
+Gli utenti dovrebbero scegliere di utilizzare questa applicazione perché consente una rapida consultazione di tutti i prodotti che sono presenti
+	nelle dispense di casa, evitando anche l'inutile acquisto di prodotti superflui, in maniera semplice, rapida ed efficiente.
+	I prodotti possono infatti essere aggiunti o rimossi dall'elenco inquadrando il codice a barre presente su ciascun prodotto.
+	L'applicazione non si limita però solamente all'ambito domestico, perché risulta essere utile in tutti i casi in cui sia necessario
+	conoscere quali e quanti prodotti sono a disposizione.
