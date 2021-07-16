@@ -1,0 +1,19 @@
+Caso d'uso 1)
+	Nome: Creazione di un Account
+	Attori: Utente
+	Precondizioni:
+		1 L'utente ha avviato l'applicazione per la prima volta
+	Sequenza di eventi:
+		1 L'utente seleziona la voce "Crea Account"
+		2 Il sistema mostra una schermata nella quale si chiede l'inserimento delle informazioni
+		  necessarie per creare l'Account (email e password)
+		3 L'utente inserisce le informazioni richieste
+		4 L'utente seleziona la voce "Conferma"
+		5 Il sistema memorizza le informazioni dell'Account appena creato
+		6 Il sistema mostra la schermata principale dell'applicazione
+	Sequenze alternative:
+		1 L'utente può abbandonare la funzionalità in qualsiasi momento
+		2 Le informazioni inserite non sono corrette
+			2.1 Il sistema mostra un messaggio di errore e chiede nuovamente l'inserimento delle informazioni
+	Postcondizioni:
+		1 Il sistema resta in attesa di un'interazione da parte dell'utente

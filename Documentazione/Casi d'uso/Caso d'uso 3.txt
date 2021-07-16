@@ -1,0 +1,23 @@
+Caso d'uso 3)
+	Nome: Aggiunta di un prodotto all'elenco dei prodotti presenti in magazzino
+	Attori: Utente
+	Precondizioni:
+		1 L'utente ha avviato l'applicazione
+		2 L'utente ha effettuato l'accesso al proprio Account
+	Sequenza di eventi:
+		1 L'utente seleziona la voce "Inquadra"
+		2 L'utente inquadra il codice a barre del prodotto da aggiungere all'elenco dei prodotti presenti in magazzino
+		3 Il sistema legge il codice a barre del prodotto da aggiungere all'elenco dei prodotti presenti in magazzino
+		4 L'utente clicca il pulsante "+"
+		5 L'utente inserisce il nome del prodotto inquadrato		
+		6 Il sistema aggiunge il prodotto inquadrato all'elenco dei prodotti presenti in magazzino
+	Sequenze alternative:
+		1 L'utente può abbandonare la funzionalità in qualsiasi momento
+		2 L'utente seleziona la voce "Manuale"
+			2.1 L'utente inserisce le informazioni del prodotto richieste
+			2.2 L'utente seleziona la voce "Conferma"
+			2.3 Il sistema aggiunge il prodotto all'elenco dei prodotti presenti in magazzino
+		3 L'utente clicca il pulsante "+" affianco al prodotto nell'elenco dei prodotti presenti in magazzino
+			3.1 Il sistema incrementa la quantità del prodotto nell'elenco dei prodotti presenti in magazzino
+	Postcondizioni:
+		1 Il sistema resta in attesa di un'interazione da parte dell'utente

@@ -1,0 +1,13 @@
+Caso d'uso 2)
+	Nome: Visualizzazione dell'elenco dei prodotti presenti in magazzino
+	Attori: Utente
+	Precondizioni:
+		1 L'utente ha avviato l'applicazione
+		2 L'utente ha effettuato l'accesso al proprio account
+	Sequenza di eventi:
+		1 L'utente seleziona la voce "Elenco"
+		2 Il sistema visualizza la schermata che presenta l'elenco dei prodotti presenti in magazzino
+	Sequenze alternative:
+		1 L'utente può abbandonare la funzionalità in qualsiasi momento	
+	Postcondizioni:
+		1 Il sistema resta in attesa di un'interazione da parte dell'utente

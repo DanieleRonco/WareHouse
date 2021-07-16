@@ -1,0 +1,16 @@
+Caso d'uso 5)
+	Nome: Ricerca di un prodotto nell'elenco dei prodotti presenti in magazzino
+	Attori: Utente
+	Precondizioni:
+		1 L'utente ha avviato l'applicazione
+		2 L'utente ha effettuato l'accesso al proprio Account
+		3 L'utente si trova nella pagina di elenco dei prodotti presenti in magazzino
+	Sequenza di eventi:
+		1 L'utente seleziona la voce "Cerca"
+		2 L'utente inserisce il nome del prodotto che vuole ricercare
+		3 L'utente seleziona la voce "Conferma"
+		4 Il sistema mostra un elenco dei prodotti aventi il nome indicato
+	Sequenze alternative:
+		1 L'utente può abbandonare la funzionalità in qualsiasi momento
+	Postcondizioni:
+		1 Il sistema resta in attesa di un'interazione da parte dell'utente

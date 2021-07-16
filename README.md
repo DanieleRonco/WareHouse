@@ -1,8 +1,8 @@
-#WareHouse
+# WareHouse
 
 
 
-###Value Proposition
+### Value Proposition
 Gli utenti dovrebbero scegliere di utilizzare questa applicazione perché consente una rapida consultazione di tutti i prodotti che sono presenti
 	nelle dispense di casa, evitando anche l'inutile acquisto di prodotti superflui, in maniera semplice, rapida ed efficiente.
 	I prodotti possono infatti essere aggiunti o rimossi dall'elenco inquadrando il codice a barre presente su ciascun prodotto.
@@ -10,7 +10,7 @@ Gli utenti dovrebbero scegliere di utilizzare questa applicazione perché consen
 	conoscere quali e quanti prodotti sono a disposizione.
 
 
-###Elevator Pitch
+### Elevator Pitch
 Uno dei principali problemi quando si acquistano degli articoli è il rischio di comprare inutilmente dei prodotti in eccesso.
 	Potrebbe infatti capitare, durante le compere, di dimenticarsi di avere già dei prodotti a casa ma poi acquistarne degli altri;
 	quest'ultimi potrebbero scadere, divenendo inutilizzabili, con una conseguente perdita di denaro.
@@ -24,7 +24,7 @@ Questa applicazione, adatta a chiunque desideri controllare ciò che ha a dispos
 Con il giusto appoggio e il giusto Team di giovani intraprendenti, questa idea potrebbe anche svilupparsi ulteriormente.
 
 
-###Requisiti dell'Applicazione
+### Requisiti dell'Applicazione
 Requisiti funzionali:
 	- [MUST] L'utente aggiunge un prodotto all'elenco dei prodotti in magazzino indicando tutte le informazioni necessarie e ad esso associate.
 	- [MUST] L'utente aggiunge un prodotto all'elenco dei prodotti in magazzino inquadrandone il codice a barre.
@@ -45,7 +45,7 @@ Requisiti Tecnologici:
 	- [MUST] Linguaggio di programmazione C# per l'intera applicazione.
 
 
-###Codice di condotta
+### Codice di condotta
 1) Il Team è composto da vari membri, ciascuno con le proprie responsabilità.
 2) Bisogna rispettare il ruolo di ogni membro del Team: ognuno deve conoscere le proprie responsabilità e quelle degli altri e ognuno deve sforzarsi di
 	comprendere il valore che ciascun membro porta al Team.
