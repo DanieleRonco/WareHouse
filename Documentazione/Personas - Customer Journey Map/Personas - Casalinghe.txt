@@ -1,0 +1,55 @@
+Personas - Casalinghe
+
+- Dati anagrafici
+   Età: 55 anni
+   Città di residenza: Como e dintorni
+
+- Caratteristiche della personalità
+   Sono persone frenetiche perché devono gestire molti impegni all'interno della quotidianità familiare.
+   
+- Bisogni, emozioni, aspettative
+   Quando al supermercato devono acquistare degli articoli, necessitano di sapere se nella dispensa di casa sono già presenti.
+   Vogliono evitare di comprare prodotti in eccesso, anche se si presentano in offerta.
+   Si aspettano un metodo semplice e rapido per verificare la necessità di acquisto di un articolo.
+
+- Stile di vita e capacità
+   Pur essendo casalinghe, e dunque non avendo urgenza di lavorare, desiderano comunque risparmiare il più possibile durante la spesa settimanale.
+   Devono gestire molti impegni all'interno della quotidianità familiare.
+   
+- Interessi e gusti
+   Sono inserite nel mondo digitale odierno e dunque, grazie al loro smartphone, possono sperimentare le novità tecnologiche.
+   Sono particolarmente interessate dalle novità tecnologiche che possono migliorare le attività della loro vita quotidiana.
+   All'interno della giornata, cercano di ritagliarsi del tempo libero.
+
+- Hobbies
+   Quando hanno del tempo libero, solitamente, si dedicano a sè stesse o escono con le amiche.
+   Quando hanno del tempo libero, usufruiscono dei contenuti sui social.
+	
+	
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Customer Journey Map
+
+- Step: Stavano utilizzando il loro social preferito, quando si è presentata la pubblicità dell'applicazione. Hanno subito cercato su Internet informazioni
+	relative all'applicazione e quest'ultima è stata anche ricercata sui servizi di distribuzione digitale dei loro smartphone; sono rimaste
+	colpite dalle recensioni positive.
+
+- Obiettivi: Hanno visto l'applicazione e hanno subito pensato fosse un ottimo modo per tenere traccia di tutti i prodotti presenti nelle dispense
+	di casa e agevolare così la verifica della necessità di acquisto di un articolo.
+
+- Azioni: Dopo aver conosciuto l'applicazione, e aver riconosciuto la sua utilità, hanno deciso di scaricarla dal servizio di distribuzione
+	digitale presente sui loro smartphone. Dopo aver creato un account, hanno subito voluto provare le diverse funzionalità dell'applicazione, così hanno
+	inquadrato il codice a barre di un prodotto presente nelle loro dispense e lo hanno aggiunto all'elenco dei prodotti presenti in magazzino;
+	successivamente, hanno messo alla prova ulteriori funzionalità.
+
+- Oggetti: Si necessita di uno smartphone di ultima generazione.
+
+- Persone: La casalinga.
+
+- Emozioni: Subito dopo aver visto l'applicazione, erano curiose di provarla, perché era un'applicazione che rispondeva a tutte le loro esigenze.
+	Dopo averla utilizzata per la prima volta, si sono ulteriormente stupite della sua utilità e dunque, sull'onda di questa esaltazione, l'hanno 
+	consigliata a tutte le amiche.
+  
+- Team: Il Capo e il ViceCapo si sono occupati di promuovere l'applicazione tramite una pubblicità e di pubblicarla sul servizio di distribuzione digitale.
+  	I programmatori hanno sviluppato l'applicazione.

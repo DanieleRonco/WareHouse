@@ -1,0 +1,55 @@
+Personas - Commercianti
+
+- Dati anagrafici
+   Età: 45 anni
+   Città di residenza: Como e dintorni
+
+- Caratteristiche della personalità
+   Sono persone frenetiche perché devono gestire molti impegni che riguardano il loro piccolo negozio.
+   
+- Bisogni, emozioni, aspettative
+   Hanno necessità di risparmiare nell'acquisto di articoli per il loro magazzino.
+   Cercano costantemente di offrire la migliore esperienza ai propri clienti.
+   Si aspettano un metodo semplice e rapido per verificare la disponibilità in magazzino di un articolo.
+
+- Stile di vita e capacità
+   Hanno necessità di risparmiare economicamente nell'acquisto di articoli per il loro magazzino.
+   Devono gestire molti impegni che riguardano il loro piccolo negozio.
+   
+- Interessi e gusti
+   Sono inseriti nel mondo digitale odierno e dunque, grazie al loro smartphone, possono sperimentare le novità tecnologiche.
+   Sono particolarmente interessati alle novità tecnologiche che possono migliorare le attività che riguardano il loro piccolo negozio, anche
+   al fine di offrire una migliore esperienza ai propri clienti.
+
+- Hobbies
+   Quando hanno del tempo libero, si dedicano a migliorare il proprio negozio.
+   Quando hanno del tempo libero, usufruiscono dei contenuti sui social.
+	
+	
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Customer Journey Map
+
+- Step: Stavano utilizzando il loro social preferito, quando si è presentata la pubblicità dell'applicazione. Hanno subito cercato su Internet informazioni
+	relative all'applicazione e quest'ultima è stata anche ricercata sui servizi di distribuzione digitale dei loro smartphone; sono rimasti
+	colpiti dalle recensioni positive.
+
+- Obiettivi: Hanno visto l'applicazione e hanno subito pensato fosse un ottimo modo per tenere traccia di tutti gli articoli presenti nei loro magazzini,
+	agevolando così la verifica della disponibilità di un prodotto e migliorando anche l'esperienza dei loro clienti.
+
+- Azioni: Dopo aver conosciuto l'applicazione, e aver riconosciuto la sua utilità, hanno deciso di scaricarla dal servizio di distribuzione
+	digitale presente sui loro smartphone. Dopo aver creato un account, hanno subito voluto provare le diverse funzionalità dell'applicazione, così hanno
+	inquadrato il codice a barre di un prodotto presente nel loro magazzino e lo hanno aggiunto all'elenco dei prodotti presenti in magazzino;
+	successivamente, hanno messo alla prova ulteriori funzionalità.
+
+- Oggetti: Si necessita di uno smartphone di ultima generazione.
+
+- Persone: Il commerciante.
+
+- Emozioni: Subito dopo aver visto l'applicazione, erano curiosi di provarla, perché era un'applicazione che rispondeva a tutte le loro esigenze.
+	Dopo averla utilizzata per la prima volta, si sono ulteriormente stupiti della sua utilità e dunque, sull'onda di questa esaltazione, l'hanno 
+	consigliata ad altri amici commercianti.
+  
+- Team: Il Capo e il ViceCapo si sono occupati di promuovere l'applicazione tramite una pubblicità e di pubblicarla sul servizio di distribuzione digitale.
+  	I programmatori hanno sviluppato l'applicazione.
