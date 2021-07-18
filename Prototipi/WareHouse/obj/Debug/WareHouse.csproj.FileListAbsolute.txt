@@ -1,0 +1,14 @@
+C:\Users\PC-Fisso\Desktop\WareHouse\bin\Debug\WareHouse.exe.config
+C:\Users\PC-Fisso\Desktop\WareHouse\bin\Debug\WareHouse.exe
+C:\Users\PC-Fisso\Desktop\WareHouse\bin\Debug\WareHouse.pdb
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.csprojAssemblyReference.cache
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.Properties.Resources.resources
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.csproj.GenerateResource.cache
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.exe
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.pdb
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.Main.resources
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.Registrazione.resources
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.Accesso.resources
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.Elenco.resources
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.Impostazioni.resources
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.CambioPassword.resources

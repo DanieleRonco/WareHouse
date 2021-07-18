@@ -1,0 +1,41 @@
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\Prova.exe.config
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\Prova.exe
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\Prova.pdb
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\AForge.dll
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\AForge.Video.dll
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\zxing.dll
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\zxing.presentation.dll
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\AForge.xml
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\AForge.Video.xml
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\zxing.xml
+C:\Users\PC-Fisso\Desktop\Prova\bin\Debug\zxing.presentation.xml
+C:\Users\PC-Fisso\Desktop\Prova\obj\Debug\Prova.csprojAssemblyReference.cache
+C:\Users\PC-Fisso\Desktop\Prova\obj\Debug\Prova.Form1.resources
+C:\Users\PC-Fisso\Desktop\Prova\obj\Debug\Prova.Properties.Resources.resources
+C:\Users\PC-Fisso\Desktop\Prova\obj\Debug\Prova.csproj.GenerateResource.cache
+C:\Users\PC-Fisso\Desktop\Prova\obj\Debug\Prova.csproj.CopyComplete
+C:\Users\PC-Fisso\Desktop\Prova\obj\Debug\Prova.exe
+C:\Users\PC-Fisso\Desktop\Prova\obj\Debug\Prova.pdb
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\Prova.exe.config
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\Prova.exe
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\Prova.pdb
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\AForge.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\AForge.Video.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\zxing.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\zxing.presentation.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\AForge.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\AForge.Video.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\zxing.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\bin\Debug\zxing.presentation.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\obj\Debug\Prova.csprojAssemblyReference.cache
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\obj\Debug\Prova.Form1.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\obj\Debug\Prova.Properties.Resources.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\obj\Debug\Prova.csproj.GenerateResource.cache
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\obj\Debug\Prova.csproj.CopyComplete
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\obj\Debug\Prova.exe
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\obj\Debug\Prova.pdb
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\Prova\obj\Debug\Prova.Aggiunta.resources
