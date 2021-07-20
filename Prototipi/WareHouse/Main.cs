@@ -19,21 +19,31 @@ namespace WareHouse
             InitializeComponent();
         }
 
+        CElenco ListaElencoPassata;
+
         private void btnAvvia_Click(object sender, EventArgs e)
         {
             string percorsoAccesso = Directory.GetCurrentDirectory().Substring(0, Directory.GetCurrentDirectory().Length - 9) + "DatiApplicazione\\Accesso.txt";
             
             if(File.ReadAllText(percorsoAccesso) == "1")
             {
-                Elenco FinestraElenco = new Elenco();
+                Elenco FinestraElenco = new Elenco(ListaElencoPassata);
                 FinestraElenco.Show();
                 this.Hide();
             } else
             {
-                Accesso FinestraAccesso = new Accesso();
+                Accesso FinestraAccesso = new Accesso(ListaElencoPassata);
                 FinestraAccesso.Show();
                 this.Hide();
             }
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            string percorsoElenco = Directory.GetCurrentDirectory().Substring(0, Directory.GetCurrentDirectory().Length - 9) + "DatiApplicazione\\Elenco.txt";
+            ListaElencoPassata = new CElenco(percorsoElenco);
+
+            ListaElencoPassata.Importa();
         }
     }
 }

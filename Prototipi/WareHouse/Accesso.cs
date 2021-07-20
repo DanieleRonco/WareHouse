@@ -19,11 +19,19 @@ namespace WareHouse
             InitializeComponent();
         }
 
+        CElenco ListaElencoPassata;
+
+        public Accesso(CElenco passata)
+        {
+            InitializeComponent();
+            ListaElencoPassata = passata;
+        }
+
         string ERRORE = "Errore! Dati inseriti non corretti!";
 
         private void btnRegistrati_Click(object sender, EventArgs e)
         {
-            Registrazione FinestraRegistrazione = new Registrazione();
+            Registrazione FinestraRegistrazione = new Registrazione(ListaElencoPassata);
             FinestraRegistrazione.Show();
             this.Hide();
         }
@@ -35,13 +43,14 @@ namespace WareHouse
 
             string percorsoDatiAccount = Directory.GetCurrentDirectory().Substring(0, Directory.GetCurrentDirectory().Length - 9) + "DatiApplicazione\\Account.txt";
             string tutto = File.ReadAllText(percorsoDatiAccount);
-            string[] campi = tutto.Split(';');
+            string[] linee = tutto.Split('\n');
+            string[] campi = linee[1].Split(';');
             string emailLetta = campi[0];
             string passwordLetta = campi[1];
 
             if (email == emailLetta && password == passwordLetta)
             {
-                Elenco FinestraElenco = new Elenco();
+                Elenco FinestraElenco = new Elenco(ListaElencoPassata);
                 FinestraElenco.Show();
                 this.Hide();
             }

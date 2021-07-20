@@ -19,20 +19,43 @@ namespace WareHouse
             InitializeComponent();
         }
 
+        CElenco ListaElencoPassata;
+
+        public Registrazione(CElenco passata)
+        {
+            InitializeComponent();
+            ListaElencoPassata = passata;
+        }
+
+        string ERROREOBBLIGATORI = "Attenzione! Nome e Cognome sono campi obbligatori!";
         string ERROREEMAIL = "Attenzione! Email non valida!";
         string ERROREPASSWORD = "La Password deve essere lunga tra i 5 e i 10 caratteri\n" +
             "La Password deve contenere almeno 3 numeri\n" +
             "La Password deve contenere almeno 1 lettera maiuscola\n" +
             "La Password può contenere solo lettere maiuscole e minuscole e numeri\n";
+        string ERROREPASSWORDDIVERSE = "La Password e la Conferma Password devono essere uguali!\n";
 
         private void btnRegistrati_Click(object sender, EventArgs e)
         {
+            string nome = txtNome.Text;
+            string cognome = txtCognome.Text;
             string email = txtEmail.Text;
             string password = txtPassword.Text;
             string confermaPassword = txtConfermaPassword.Text;
 
+            lblObbligatori.Text = "";
+            lblErroreEmail.Text = "";
+            lblErrorePassword.Text = "";
+
+            bool nomeCognomeCorretti = true;
             bool emailCorretta = true;
             bool passwordCorretta = true;
+
+            if (nome == "" || cognome == "")
+            {
+                nomeCognomeCorretti = false;
+                lblObbligatori.Text = ERROREOBBLIGATORI;
+            } 
 
             if (!IsValidEmail(email))
             {
@@ -51,15 +74,18 @@ namespace WareHouse
             if (numeri != 3) passwordCorretta = false;
             if (maiuscole == 0) passwordCorretta = false;
             if (!passwordCorretta) lblErrorePassword.Text = ERROREPASSWORD;
+            else if (password != confermaPassword)
+            {
+                passwordCorretta = false;
+                lblErrorePassword.Text += ERROREPASSWORDDIVERSE;
+            }
 
-            if (password != confermaPassword) passwordCorretta = false;
-
-            if (emailCorretta && passwordCorretta)
+            if (nomeCognomeCorretti && emailCorretta && passwordCorretta)
             {
                 string percorsoDatiAccount = Directory.GetCurrentDirectory().Substring(0, Directory.GetCurrentDirectory().Length - 9) + "DatiApplicazione\\Account.txt";
-                File.WriteAllText(percorsoDatiAccount, email + ";" + password + ";");
+                File.WriteAllText(percorsoDatiAccount, nome + ";" + cognome + ";\n" + email + ";" + password + ";");
 
-                Elenco FinestraElenco = new Elenco();
+                Elenco FinestraElenco = new Elenco(ListaElencoPassata);
                 FinestraElenco.Show();
                 this.Hide();
             }
@@ -79,7 +105,7 @@ namespace WareHouse
 
         private void btnIndietro_Click(object sender, EventArgs e)
         {
-            Accesso FinestraAccesso = new Accesso();
+            Accesso FinestraAccesso = new Accesso(ListaElencoPassata);
             FinestraAccesso.Show();
             this.Hide();
         }

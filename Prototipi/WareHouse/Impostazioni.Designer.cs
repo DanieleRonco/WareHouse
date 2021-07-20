@@ -36,6 +36,7 @@
             this.btnInquadra = new System.Windows.Forms.Button();
             this.btnImpostazioni = new System.Windows.Forms.Button();
             this.btnElenco = new System.Windows.Forms.Button();
+            this.btnEsci = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblLoginAutomatico
@@ -95,6 +96,7 @@
             this.btnInquadra.TabIndex = 7;
             this.btnInquadra.Text = "Inquadra";
             this.btnInquadra.UseVisualStyleBackColor = true;
+            this.btnInquadra.Click += new System.EventHandler(this.btnInquadra_Click);
             // 
             // btnImpostazioni
             // 
@@ -104,6 +106,7 @@
             this.btnImpostazioni.TabIndex = 6;
             this.btnImpostazioni.Text = "Impostazioni";
             this.btnImpostazioni.UseVisualStyleBackColor = true;
+            this.btnImpostazioni.Click += new System.EventHandler(this.btnImpostazioni_Click);
             // 
             // btnElenco
             // 
@@ -115,11 +118,22 @@
             this.btnElenco.UseVisualStyleBackColor = true;
             this.btnElenco.Click += new System.EventHandler(this.btnElenco_Click);
             // 
+            // btnEsci
+            // 
+            this.btnEsci.Location = new System.Drawing.Point(247, 12);
+            this.btnEsci.Name = "btnEsci";
+            this.btnEsci.Size = new System.Drawing.Size(75, 23);
+            this.btnEsci.TabIndex = 8;
+            this.btnEsci.Text = "Esci";
+            this.btnEsci.UseVisualStyleBackColor = true;
+            this.btnEsci.Click += new System.EventHandler(this.btnEsci_Click);
+            // 
             // Impostazioni
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(334, 611);
+            this.Controls.Add(this.btnEsci);
             this.Controls.Add(this.btnInquadra);
             this.Controls.Add(this.btnImpostazioni);
             this.Controls.Add(this.btnElenco);
@@ -146,5 +160,6 @@
         private System.Windows.Forms.Button btnInquadra;
         private System.Windows.Forms.Button btnImpostazioni;
         private System.Windows.Forms.Button btnElenco;
+        private System.Windows.Forms.Button btnEsci;
     }
 }

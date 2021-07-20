@@ -17,10 +17,32 @@ namespace WareHouse
             InitializeComponent();
         }
 
+        CElenco ListaElencoPassata;
+
+        public Elenco(CElenco passata)
+        {
+            InitializeComponent();
+            ListaElencoPassata = passata;
+        }
+
         private void btnImpostazioni_Click(object sender, EventArgs e)
         {
-            Impostazioni FinestraImpostazioni = new Impostazioni();
+            Impostazioni FinestraImpostazioni = new Impostazioni(ListaElencoPassata);
             FinestraImpostazioni.Show();
+            this.Hide();
+        }
+
+        private void btnElenco_Click(object sender, EventArgs e)
+        {
+            Elenco FinestraElenco = new Elenco(ListaElencoPassata);
+            FinestraElenco.Show();
+            this.Hide();
+        }
+
+        private void btnInquadra_Click(object sender, EventArgs e)
+        {
+            Inquadra FinestraInquadra = new Inquadra(ListaElencoPassata);
+            FinestraInquadra.Show();
             this.Hide();
         }
 
@@ -30,6 +52,11 @@ namespace WareHouse
             {
                 Application.OpenForms[i].Close();
             }
+        }
+
+        private void Elenco_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -38,6 +38,11 @@
             this.txtConfermaPassword = new System.Windows.Forms.TextBox();
             this.lblConfermaPassword = new System.Windows.Forms.Label();
             this.btnIndietro = new System.Windows.Forms.Button();
+            this.lblNome = new System.Windows.Forms.Label();
+            this.lblCognome = new System.Windows.Forms.Label();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtCognome = new System.Windows.Forms.TextBox();
+            this.lblObbligatori = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnRegistrati
@@ -62,7 +67,7 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(43, 309);
+            this.lblPassword.Location = new System.Drawing.Point(46, 309);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(56, 13);
             this.lblPassword.TabIndex = 2;
@@ -86,7 +91,7 @@
             // lblErrorePassword
             // 
             this.lblErrorePassword.AutoSize = true;
-            this.lblErrorePassword.Location = new System.Drawing.Point(46, 413);
+            this.lblErrorePassword.Location = new System.Drawing.Point(46, 401);
             this.lblErrorePassword.Name = "lblErrorePassword";
             this.lblErrorePassword.Size = new System.Drawing.Size(22, 13);
             this.lblErrorePassword.TabIndex = 5;
@@ -95,7 +100,7 @@
             // lblErroreEmail
             // 
             this.lblErroreEmail.AutoSize = true;
-            this.lblErroreEmail.Location = new System.Drawing.Point(46, 280);
+            this.lblErroreEmail.Location = new System.Drawing.Point(46, 268);
             this.lblErroreEmail.Name = "lblErroreEmail";
             this.lblErroreEmail.Size = new System.Drawing.Size(22, 13);
             this.lblErroreEmail.TabIndex = 6;
@@ -103,7 +108,7 @@
             // 
             // txtConfermaPassword
             // 
-            this.txtConfermaPassword.Location = new System.Drawing.Point(43, 378);
+            this.txtConfermaPassword.Location = new System.Drawing.Point(46, 378);
             this.txtConfermaPassword.Name = "txtConfermaPassword";
             this.txtConfermaPassword.PasswordChar = '•';
             this.txtConfermaPassword.Size = new System.Drawing.Size(228, 20);
@@ -112,7 +117,7 @@
             // lblConfermaPassword
             // 
             this.lblConfermaPassword.AutoSize = true;
-            this.lblConfermaPassword.Location = new System.Drawing.Point(43, 362);
+            this.lblConfermaPassword.Location = new System.Drawing.Point(46, 362);
             this.lblConfermaPassword.Name = "lblConfermaPassword";
             this.lblConfermaPassword.Size = new System.Drawing.Size(103, 13);
             this.lblConfermaPassword.TabIndex = 7;
@@ -120,7 +125,7 @@
             // 
             // btnIndietro
             // 
-            this.btnIndietro.Location = new System.Drawing.Point(259, 589);
+            this.btnIndietro.Location = new System.Drawing.Point(247, 576);
             this.btnIndietro.Name = "btnIndietro";
             this.btnIndietro.Size = new System.Drawing.Size(75, 23);
             this.btnIndietro.TabIndex = 9;
@@ -128,11 +133,57 @@
             this.btnIndietro.UseVisualStyleBackColor = true;
             this.btnIndietro.Click += new System.EventHandler(this.btnIndietro_Click);
             // 
+            // lblNome
+            // 
+            this.lblNome.AutoSize = true;
+            this.lblNome.Location = new System.Drawing.Point(46, 83);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(38, 13);
+            this.lblNome.TabIndex = 10;
+            this.lblNome.Text = "Nome:";
+            // 
+            // lblCognome
+            // 
+            this.lblCognome.AutoSize = true;
+            this.lblCognome.Location = new System.Drawing.Point(46, 134);
+            this.lblCognome.Name = "lblCognome";
+            this.lblCognome.Size = new System.Drawing.Size(55, 13);
+            this.lblCognome.TabIndex = 11;
+            this.lblCognome.Text = "Cognome:";
+            // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(46, 99);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(228, 20);
+            this.txtNome.TabIndex = 12;
+            // 
+            // txtCognome
+            // 
+            this.txtCognome.Location = new System.Drawing.Point(46, 150);
+            this.txtCognome.Name = "txtCognome";
+            this.txtCognome.Size = new System.Drawing.Size(228, 20);
+            this.txtCognome.TabIndex = 13;
+            // 
+            // lblObbligatori
+            // 
+            this.lblObbligatori.AutoSize = true;
+            this.lblObbligatori.Location = new System.Drawing.Point(46, 173);
+            this.lblObbligatori.Name = "lblObbligatori";
+            this.lblObbligatori.Size = new System.Drawing.Size(22, 13);
+            this.lblObbligatori.TabIndex = 14;
+            this.lblObbligatori.Text = "-----";
+            // 
             // Registrazione
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(334, 611);
+            this.Controls.Add(this.lblObbligatori);
+            this.Controls.Add(this.txtCognome);
+            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.lblCognome);
+            this.Controls.Add(this.lblNome);
             this.Controls.Add(this.btnIndietro);
             this.Controls.Add(this.txtConfermaPassword);
             this.Controls.Add(this.lblConfermaPassword);
@@ -163,5 +214,10 @@
         private System.Windows.Forms.TextBox txtConfermaPassword;
         private System.Windows.Forms.Label lblConfermaPassword;
         private System.Windows.Forms.Button btnIndietro;
+        private System.Windows.Forms.Label lblNome;
+        private System.Windows.Forms.Label lblCognome;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtCognome;
+        private System.Windows.Forms.Label lblObbligatori;
     }
 }

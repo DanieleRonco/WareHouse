@@ -42,6 +42,7 @@
             this.btnElenco.TabIndex = 0;
             this.btnElenco.Text = "Elenco";
             this.btnElenco.UseVisualStyleBackColor = true;
+            this.btnElenco.Click += new System.EventHandler(this.btnElenco_Click);
             // 
             // btnImpostazioni
             // 
@@ -61,10 +62,11 @@
             this.btnInquadra.TabIndex = 2;
             this.btnInquadra.Text = "Inquadra";
             this.btnInquadra.UseVisualStyleBackColor = true;
+            this.btnInquadra.Click += new System.EventHandler(this.btnInquadra_Click);
             // 
             // btnEsci
             // 
-            this.btnEsci.Location = new System.Drawing.Point(247, 4);
+            this.btnEsci.Location = new System.Drawing.Point(247, 12);
             this.btnEsci.Name = "btnEsci";
             this.btnEsci.Size = new System.Drawing.Size(75, 23);
             this.btnEsci.TabIndex = 3;
@@ -84,6 +86,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Elenco";
             this.Text = "Elenco";
+            this.Load += new System.EventHandler(this.Elenco_Load);
             this.ResumeLayout(false);
 
         }
