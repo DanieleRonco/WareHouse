@@ -9,7 +9,7 @@ namespace WareHouse
     public class CProdotto
     {
         private string nome;
-        private int codice;
+        private double codice;
         private int quantita;
         private string immagine;
 
@@ -21,7 +21,7 @@ namespace WareHouse
             this.immagine = "";
         }
 
-        public CProdotto(string nome, int codice, int quantita, string immagine)
+        public CProdotto(string nome, double codice, int quantita, string immagine)
         {
             this.nome = nome;
             this.codice = codice;
@@ -29,7 +29,7 @@ namespace WareHouse
             this.immagine = immagine;
         }
 
-        public CProdotto(string nome, int codice, int quantita)
+        public CProdotto(string nome, double codice, int quantita)
         {
             this.nome = nome;
             this.codice = codice;
@@ -42,7 +42,7 @@ namespace WareHouse
             return this.nome;
         }
 
-        public int getCodice()
+        public double getCodice()
         {
             return this.codice;
         }
@@ -62,7 +62,7 @@ namespace WareHouse
             this.nome = nome;
         }
 
-        public void setCodice(int codice)
+        public void setCodice(double codice)
         {
             this.codice = codice;
         }

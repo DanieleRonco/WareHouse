@@ -184,7 +184,7 @@
             // 
             // btnQuantitaPiu
             // 
-            this.btnQuantitaPiu.Location = new System.Drawing.Point(104, 474);
+            this.btnQuantitaPiu.Location = new System.Drawing.Point(174, 475);
             this.btnQuantitaPiu.Name = "btnQuantitaPiu";
             this.btnQuantitaPiu.Size = new System.Drawing.Size(30, 23);
             this.btnQuantitaPiu.TabIndex = 24;
@@ -194,7 +194,7 @@
             // 
             // btnQuantitaMeno
             // 
-            this.btnQuantitaMeno.Location = new System.Drawing.Point(174, 474);
+            this.btnQuantitaMeno.Location = new System.Drawing.Point(104, 475);
             this.btnQuantitaMeno.Name = "btnQuantitaMeno";
             this.btnQuantitaMeno.Size = new System.Drawing.Size(30, 23);
             this.btnQuantitaMeno.TabIndex = 25;

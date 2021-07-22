@@ -56,7 +56,36 @@ namespace WareHouse
 
         private void Elenco_Load(object sender, EventArgs e)
         {
+            CaricaSuListView(ListaElencoPassata.getLista());
+        }
 
+        private void btnCerca_Click(object sender, EventArgs e)
+        {
+            CaricaSuListView(ListaElencoPassata.cercaNome(txtCerca.Text));
+        }
+
+        private void btnElimina_Click(object sender, EventArgs e)
+        {
+            if (ListaElencoPassata.Elimina(lstElenco.SelectedItems[0].ToString())) 
+                CaricaSuListView(ListaElencoPassata.getLista());
+        }
+
+        void CaricaSuListView(List<CProdotto> listaPassata)
+        {
+            lstElenco.Items.Clear();
+            
+            //imageListLarge.Images.Add(Bitmap.FromFile("C:\\MyLargeImage2.bmp"));
+            for (int i = 0; i < listaPassata.Count(); i++)
+            {
+                var item = new ListViewItem(new[] { listaPassata.ElementAt(i).getNome(), listaPassata.ElementAt(i).getCodice().ToString(), listaPassata.ElementAt(i).getQuantita().ToString() });
+                lstElenco.Items.Add(item);
+            }
+        }
+
+        private void btnDimentica_Click(object sender, EventArgs e)
+        {
+            ListaElencoPassata.Dimentica(lstElenco.SelectedItems[0].ToString());
+            CaricaSuListView(ListaElencoPassata.getLista());
         }
     }
 }

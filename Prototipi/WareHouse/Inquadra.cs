@@ -106,11 +106,23 @@ namespace WareHouse
         {
             if (txtNome.Text != "")
             {
-                CProdotto daAggiungere = new CProdotto(txtNome.Text, Convert.ToInt32(txtCodice.Text), Convert.ToInt32(txtQuantita.Text)); //cambia in caso di immagine
-                ListaElencoPassata.Aggiungi(daAggiungere);
-                MessageBox.Show(daAggiungere.toCsv());
+                CProdotto daAggiungere = new CProdotto(txtNome.Text, Convert.ToDouble(txtCodice.Text), Convert.ToInt32(txtQuantita.Text)); //cambia in caso di immagine
+
+                if (ListaElencoPassata.cercaCodice(daAggiungere.getCodice()))
+                {
+                    ListaElencoPassata.aumentaQuantita(daAggiungere.getCodice(), daAggiungere.getQuantita());
+                } else ListaElencoPassata.Aggiungi(daAggiungere);
+
+                Pulisci();
             }
             else lblErroreNome.Text = ERRORENOME;
+        }
+
+        void Pulisci()
+        {
+            txtCodice.Text = "";
+            txtNome.Text = "";
+            txtQuantita.Text = "1";
         }
 
         private void btnQuantitaPiu_Click(object sender, EventArgs e)
