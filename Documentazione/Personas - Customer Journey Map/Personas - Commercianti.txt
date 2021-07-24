@@ -1,8 +1,8 @@
 Personas - Commercianti
 
 - Dati anagrafici
-   Età: 45 anni
-   Città di residenza: Como e dintorni
+   Età: 45 anni.
+   Città di residenza: Como e dintorni.
 
 - Caratteristiche della personalità
    Sono persone frenetiche perché devono gestire molti impegni che riguardano il loro piccolo negozio.

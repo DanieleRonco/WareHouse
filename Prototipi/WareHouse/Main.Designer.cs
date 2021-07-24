@@ -33,11 +33,16 @@
             // 
             // btnAvvia
             // 
-            this.btnAvvia.Location = new System.Drawing.Point(103, 285);
+            this.btnAvvia.FlatAppearance.BorderSize = 0;
+            this.btnAvvia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAvvia.Font = new System.Drawing.Font("Bahnschrift Condensed", 20F, System.Drawing.FontStyle.Bold);
+            this.btnAvvia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
+            this.btnAvvia.Image = global::WareHouse.Properties.Resources.logo_small_icon_only;
+            this.btnAvvia.Location = new System.Drawing.Point(9, 9);
+            this.btnAvvia.Margin = new System.Windows.Forms.Padding(0);
             this.btnAvvia.Name = "btnAvvia";
-            this.btnAvvia.Size = new System.Drawing.Size(139, 23);
+            this.btnAvvia.Size = new System.Drawing.Size(316, 593);
             this.btnAvvia.TabIndex = 0;
-            this.btnAvvia.Text = "Avvia";
             this.btnAvvia.UseVisualStyleBackColor = true;
             this.btnAvvia.Click += new System.EventHandler(this.btnAvvia_Click);
             // 
@@ -45,8 +50,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(334, 611);
             this.Controls.Add(this.btnAvvia);
+            this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
             this.Text = "Main";

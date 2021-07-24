@@ -133,6 +133,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Registrazione.resx">
       <DependentUpon>Registrazione.cs</DependentUpon>
@@ -150,6 +151,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_small_icon_only.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\options_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcode_reader_logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

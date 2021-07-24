@@ -7,14 +7,14 @@ Requisiti funzionali:
 	- [MUST] L'utente rimuove un prodotto dall'elenco dei prodotti in magazzino inquadrandone il codice a barre.
 	- [MUST] L'utente visualizza l'elenco dei prodotti in magazzino.
 	- [MUST] L'utente cerca un prodotto nell'elenco dei prodotti in magazzino.
-	- [MAY] L'utente crea e accede ad un account.
+	- [MUST] L'utente crea e accede ad un account.
 
 Requisiti Non-Funzionali:
 	- [MUST] L'aggiunta di un prodotto all'elenco dei prodotti in magazzino inquadrando il codice a barre deve avvenire in meno di cinque secondi.
 	- [MUST] Nella visualizzazione dell'elenco per ogni prodotto viene indicata la quantità presente in magazzino.
-	- [MUST] I prodotti dell'elenco possono essere suddivisi in categorie.
+	- [SHOULD] I prodotti dell'elenco possono essere suddivisi in categorie.
 
 Requisiti Tecnologici:
 	- [MUST] L'elenco dei prodotti in magazzino risiede in un database locale (file).
-	- [MAY] L'elenco dei prodotti in magazzino risiede in un database via cloud associato ad un account.
+	- [SHOULD] L'elenco dei prodotti in magazzino risiede in un database via cloud associato ad un account.
 	- [MUST] Linguaggio di programmazione C# per l'intera applicazione.

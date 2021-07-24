@@ -43,15 +43,16 @@
             // lblVecchiaPassword
             // 
             this.lblVecchiaPassword.AutoSize = true;
-            this.lblVecchiaPassword.Location = new System.Drawing.Point(53, 184);
+            this.lblVecchiaPassword.Font = new System.Drawing.Font("Bahnschrift Condensed", 10F);
+            this.lblVecchiaPassword.Location = new System.Drawing.Point(49, 170);
             this.lblVecchiaPassword.Name = "lblVecchiaPassword";
-            this.lblVecchiaPassword.Size = new System.Drawing.Size(98, 13);
+            this.lblVecchiaPassword.Size = new System.Drawing.Size(92, 17);
             this.lblVecchiaPassword.TabIndex = 0;
             this.lblVecchiaPassword.Text = "Vecchia Password:";
             // 
             // txtConfermaPassword
             // 
-            this.txtConfermaPassword.Location = new System.Drawing.Point(53, 322);
+            this.txtConfermaPassword.Location = new System.Drawing.Point(52, 327);
             this.txtConfermaPassword.Name = "txtConfermaPassword";
             this.txtConfermaPassword.PasswordChar = '•';
             this.txtConfermaPassword.Size = new System.Drawing.Size(228, 20);
@@ -60,24 +61,25 @@
             // lblConfermaPassword
             // 
             this.lblConfermaPassword.AutoSize = true;
-            this.lblConfermaPassword.Location = new System.Drawing.Point(53, 306);
+            this.lblConfermaPassword.Font = new System.Drawing.Font("Bahnschrift Condensed", 10F);
+            this.lblConfermaPassword.Location = new System.Drawing.Point(49, 307);
             this.lblConfermaPassword.Name = "lblConfermaPassword";
-            this.lblConfermaPassword.Size = new System.Drawing.Size(103, 13);
+            this.lblConfermaPassword.Size = new System.Drawing.Size(103, 17);
             this.lblConfermaPassword.TabIndex = 12;
             this.lblConfermaPassword.Text = "Conferma password:";
             // 
             // lblErrorePassword
             // 
             this.lblErrorePassword.AutoSize = true;
-            this.lblErrorePassword.Location = new System.Drawing.Point(53, 345);
+            this.lblErrorePassword.Font = new System.Drawing.Font("Bahnschrift Condensed", 10F);
+            this.lblErrorePassword.Location = new System.Drawing.Point(49, 350);
             this.lblErrorePassword.Name = "lblErrorePassword";
-            this.lblErrorePassword.Size = new System.Drawing.Size(22, 13);
+            this.lblErrorePassword.Size = new System.Drawing.Size(0, 17);
             this.lblErrorePassword.TabIndex = 11;
-            this.lblErrorePassword.Text = "-----";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(53, 269);
+            this.txtPassword.Location = new System.Drawing.Point(52, 284);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '•';
             this.txtPassword.Size = new System.Drawing.Size(228, 20);
@@ -86,24 +88,25 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(53, 253);
+            this.lblPassword.Font = new System.Drawing.Font("Bahnschrift Condensed", 10F);
+            this.lblPassword.Location = new System.Drawing.Point(49, 264);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(56, 13);
+            this.lblPassword.Size = new System.Drawing.Size(55, 17);
             this.lblPassword.TabIndex = 9;
             this.lblPassword.Text = "Password:";
             // 
             // lblErroreVecchiaPassword
             // 
             this.lblErroreVecchiaPassword.AutoSize = true;
-            this.lblErroreVecchiaPassword.Location = new System.Drawing.Point(53, 223);
+            this.lblErroreVecchiaPassword.Font = new System.Drawing.Font("Bahnschrift Condensed", 10F);
+            this.lblErroreVecchiaPassword.Location = new System.Drawing.Point(49, 213);
             this.lblErroreVecchiaPassword.Name = "lblErroreVecchiaPassword";
-            this.lblErroreVecchiaPassword.Size = new System.Drawing.Size(22, 13);
+            this.lblErroreVecchiaPassword.Size = new System.Drawing.Size(0, 17);
             this.lblErroreVecchiaPassword.TabIndex = 14;
-            this.lblErroreVecchiaPassword.Text = "-----";
             // 
             // txtVecchiaPassword
             // 
-            this.txtVecchiaPassword.Location = new System.Drawing.Point(53, 200);
+            this.txtVecchiaPassword.Location = new System.Drawing.Point(52, 190);
             this.txtVecchiaPassword.Name = "txtVecchiaPassword";
             this.txtVecchiaPassword.PasswordChar = '•';
             this.txtVecchiaPassword.Size = new System.Drawing.Size(228, 20);
@@ -111,28 +114,36 @@
             // 
             // btnConferma
             // 
-            this.btnConferma.Location = new System.Drawing.Point(125, 427);
+            this.btnConferma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
+            this.btnConferma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConferma.Font = new System.Drawing.Font("Bahnschrift Condensed", 13F);
+            this.btnConferma.ForeColor = System.Drawing.Color.White;
+            this.btnConferma.Location = new System.Drawing.Point(25, 439);
             this.btnConferma.Name = "btnConferma";
-            this.btnConferma.Size = new System.Drawing.Size(75, 23);
+            this.btnConferma.Size = new System.Drawing.Size(287, 34);
             this.btnConferma.TabIndex = 16;
             this.btnConferma.Text = "Conferma";
-            this.btnConferma.UseVisualStyleBackColor = true;
+            this.btnConferma.UseVisualStyleBackColor = false;
             this.btnConferma.Click += new System.EventHandler(this.btnConferma_Click);
             // 
             // btnIndietro
             // 
-            this.btnIndietro.Location = new System.Drawing.Point(247, 576);
+            this.btnIndietro.BackColor = System.Drawing.Color.Transparent;
+            this.btnIndietro.FlatAppearance.BorderSize = 0;
+            this.btnIndietro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIndietro.Image = global::WareHouse.Properties.Resources.ezgif1;
+            this.btnIndietro.Location = new System.Drawing.Point(12, 12);
             this.btnIndietro.Name = "btnIndietro";
-            this.btnIndietro.Size = new System.Drawing.Size(75, 23);
+            this.btnIndietro.Size = new System.Drawing.Size(25, 25);
             this.btnIndietro.TabIndex = 17;
-            this.btnIndietro.Text = "Indietro";
-            this.btnIndietro.UseVisualStyleBackColor = true;
+            this.btnIndietro.UseVisualStyleBackColor = false;
             this.btnIndietro.Click += new System.EventHandler(this.btnIndietro_Click);
             // 
             // CambioPassword
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(334, 611);
             this.Controls.Add(this.btnIndietro);
             this.Controls.Add(this.btnConferma);

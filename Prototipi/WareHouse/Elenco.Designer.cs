@@ -28,10 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Elenco));
             this.btnElenco = new System.Windows.Forms.Button();
-            this.btnImpostazioni = new System.Windows.Forms.Button();
             this.btnInquadra = new System.Windows.Forms.Button();
-            this.btnEsci = new System.Windows.Forms.Button();
             this.lstElenco = new System.Windows.Forms.ListView();
             this.Nome = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Codice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -40,47 +39,35 @@
             this.btnCerca = new System.Windows.Forms.Button();
             this.btnElimina = new System.Windows.Forms.Button();
             this.btnDimentica = new System.Windows.Forms.Button();
+            this.btnEsci = new System.Windows.Forms.Button();
+            this.btnImpostazioni = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnElenco
             // 
-            this.btnElenco.Location = new System.Drawing.Point(130, 576);
+            this.btnElenco.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
+            this.btnElenco.FlatAppearance.BorderSize = 0;
+            this.btnElenco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnElenco.Image = ((System.Drawing.Image)(resources.GetObject("btnElenco.Image")));
+            this.btnElenco.Location = new System.Drawing.Point(109, 564);
             this.btnElenco.Name = "btnElenco";
-            this.btnElenco.Size = new System.Drawing.Size(75, 23);
+            this.btnElenco.Size = new System.Drawing.Size(120, 48);
             this.btnElenco.TabIndex = 0;
-            this.btnElenco.Text = "Elenco";
-            this.btnElenco.UseVisualStyleBackColor = true;
+            this.btnElenco.UseVisualStyleBackColor = false;
             this.btnElenco.Click += new System.EventHandler(this.btnElenco_Click);
-            // 
-            // btnImpostazioni
-            // 
-            this.btnImpostazioni.Location = new System.Drawing.Point(29, 576);
-            this.btnImpostazioni.Name = "btnImpostazioni";
-            this.btnImpostazioni.Size = new System.Drawing.Size(75, 23);
-            this.btnImpostazioni.TabIndex = 1;
-            this.btnImpostazioni.Text = "Impostazioni";
-            this.btnImpostazioni.UseVisualStyleBackColor = true;
-            this.btnImpostazioni.Click += new System.EventHandler(this.btnImpostazioni_Click);
             // 
             // btnInquadra
             // 
-            this.btnInquadra.Location = new System.Drawing.Point(233, 576);
+            this.btnInquadra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
+            this.btnInquadra.FlatAppearance.BorderSize = 0;
+            this.btnInquadra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInquadra.Image = ((System.Drawing.Image)(resources.GetObject("btnInquadra.Image")));
+            this.btnInquadra.Location = new System.Drawing.Point(222, 564);
             this.btnInquadra.Name = "btnInquadra";
-            this.btnInquadra.Size = new System.Drawing.Size(75, 23);
+            this.btnInquadra.Size = new System.Drawing.Size(114, 48);
             this.btnInquadra.TabIndex = 2;
-            this.btnInquadra.Text = "Inquadra";
-            this.btnInquadra.UseVisualStyleBackColor = true;
+            this.btnInquadra.UseVisualStyleBackColor = false;
             this.btnInquadra.Click += new System.EventHandler(this.btnInquadra_Click);
-            // 
-            // btnEsci
-            // 
-            this.btnEsci.Location = new System.Drawing.Point(247, 12);
-            this.btnEsci.Name = "btnEsci";
-            this.btnEsci.Size = new System.Drawing.Size(75, 23);
-            this.btnEsci.TabIndex = 3;
-            this.btnEsci.Text = "Esci";
-            this.btnEsci.UseVisualStyleBackColor = true;
-            this.btnEsci.Click += new System.EventHandler(this.btnEsci_Click);
             // 
             // lstElenco
             // 
@@ -89,10 +76,11 @@
             this.Nome,
             this.Codice,
             this.Quantita});
+            this.lstElenco.Font = new System.Drawing.Font("Bahnschrift Condensed", 10F);
             this.lstElenco.HideSelection = false;
             this.lstElenco.Location = new System.Drawing.Point(12, 41);
             this.lstElenco.Name = "lstElenco";
-            this.lstElenco.Size = new System.Drawing.Size(310, 471);
+            this.lstElenco.Size = new System.Drawing.Size(310, 451);
             this.lstElenco.TabIndex = 4;
             this.lstElenco.UseCompatibleStateImageBehavior = false;
             this.lstElenco.View = System.Windows.Forms.View.Details;
@@ -122,38 +110,77 @@
             // 
             // btnCerca
             // 
-            this.btnCerca.Location = new System.Drawing.Point(118, 12);
+            this.btnCerca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
+            this.btnCerca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerca.Font = new System.Drawing.Font("Bahnschrift Condensed", 10F);
+            this.btnCerca.ForeColor = System.Drawing.Color.White;
+            this.btnCerca.Location = new System.Drawing.Point(118, 8);
             this.btnCerca.Name = "btnCerca";
-            this.btnCerca.Size = new System.Drawing.Size(75, 23);
+            this.btnCerca.Size = new System.Drawing.Size(75, 27);
             this.btnCerca.TabIndex = 6;
             this.btnCerca.Text = "Cerca";
-            this.btnCerca.UseVisualStyleBackColor = true;
+            this.btnCerca.UseVisualStyleBackColor = false;
             this.btnCerca.Click += new System.EventHandler(this.btnCerca_Click);
             // 
             // btnElimina
             // 
-            this.btnElimina.Location = new System.Drawing.Point(130, 518);
+            this.btnElimina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
+            this.btnElimina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnElimina.Font = new System.Drawing.Font("Bahnschrift Condensed", 10F);
+            this.btnElimina.ForeColor = System.Drawing.Color.White;
+            this.btnElimina.Location = new System.Drawing.Point(55, 498);
             this.btnElimina.Name = "btnElimina";
-            this.btnElimina.Size = new System.Drawing.Size(75, 23);
+            this.btnElimina.Size = new System.Drawing.Size(225, 27);
             this.btnElimina.TabIndex = 7;
             this.btnElimina.Text = "Elimina";
-            this.btnElimina.UseVisualStyleBackColor = true;
+            this.btnElimina.UseVisualStyleBackColor = false;
             this.btnElimina.Click += new System.EventHandler(this.btnElimina_Click);
             // 
             // btnDimentica
             // 
-            this.btnDimentica.Location = new System.Drawing.Point(130, 547);
+            this.btnDimentica.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
+            this.btnDimentica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDimentica.Font = new System.Drawing.Font("Bahnschrift Condensed", 10F);
+            this.btnDimentica.ForeColor = System.Drawing.Color.White;
+            this.btnDimentica.Location = new System.Drawing.Point(55, 531);
             this.btnDimentica.Name = "btnDimentica";
-            this.btnDimentica.Size = new System.Drawing.Size(75, 23);
+            this.btnDimentica.Size = new System.Drawing.Size(225, 27);
             this.btnDimentica.TabIndex = 11;
             this.btnDimentica.Text = "Dimentica";
-            this.btnDimentica.UseVisualStyleBackColor = true;
+            this.btnDimentica.UseVisualStyleBackColor = false;
             this.btnDimentica.Click += new System.EventHandler(this.btnDimentica_Click);
+            // 
+            // btnEsci
+            // 
+            this.btnEsci.BackColor = System.Drawing.Color.Transparent;
+            this.btnEsci.FlatAppearance.BorderSize = 0;
+            this.btnEsci.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEsci.Image = global::WareHouse.Properties.Resources.ezgif2;
+            this.btnEsci.Location = new System.Drawing.Point(311, -1);
+            this.btnEsci.Name = "btnEsci";
+            this.btnEsci.Size = new System.Drawing.Size(25, 25);
+            this.btnEsci.TabIndex = 3;
+            this.btnEsci.UseVisualStyleBackColor = false;
+            this.btnEsci.Click += new System.EventHandler(this.btnEsci_Click);
+            // 
+            // btnImpostazioni
+            // 
+            this.btnImpostazioni.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
+            this.btnImpostazioni.FlatAppearance.BorderSize = 0;
+            this.btnImpostazioni.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnImpostazioni.Image = ((System.Drawing.Image)(resources.GetObject("btnImpostazioni.Image")));
+            this.btnImpostazioni.Location = new System.Drawing.Point(0, 564);
+            this.btnImpostazioni.Name = "btnImpostazioni";
+            this.btnImpostazioni.Size = new System.Drawing.Size(112, 48);
+            this.btnImpostazioni.TabIndex = 1;
+            this.btnImpostazioni.UseVisualStyleBackColor = false;
+            this.btnImpostazioni.Click += new System.EventHandler(this.btnImpostazioni_Click);
             // 
             // Elenco
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(334, 611);
             this.Controls.Add(this.btnDimentica);
             this.Controls.Add(this.btnElimina);
@@ -167,7 +194,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Elenco";
             this.Text = "Elenco";
-            this.Load += new System.EventHandler(this.Elenco_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

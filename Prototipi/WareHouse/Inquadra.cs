@@ -7,8 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using AForge.Video;
+using System.IO;
+using Microsoft.Win32;
 using AForge.Video.DirectShow;
+using AForge.Video;
 using ZXing;
 
 namespace WareHouse
@@ -31,7 +33,9 @@ namespace WareHouse
         FilterInfoCollection FilterInfoCollection;
         VideoCaptureDevice VideoCaptureDevice;
 
-        string ERRORENOME = "Campo obbligatorio!";
+        string ERRORECAMPO = "Campo " +
+            "obbligatorio!";
+        string ERRORENONPRESENTE = "Prodotto non presente!";
 
         private void btnImpostazioni_Click(object sender, EventArgs e)
         {
@@ -62,6 +66,19 @@ namespace WareHouse
             }
         }
 
+        private void Inquadra_Load(object sender, EventArgs e)
+        {
+            FilterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
+            foreach (FilterInfo device in FilterInfoCollection)
+                cmbFotocamera.Items.Add(device.Name);
+            cmbFotocamera.SelectedIndex = 0;
+
+            //vedere se seleziona la fotocamera qui o se le tre righe vanno spostate in un bottone
+            VideoCaptureDevice = new VideoCaptureDevice(FilterInfoCollection[cmbFotocamera.SelectedIndex].MonikerString);
+            VideoCaptureDevice.NewFrame += VideoCaptureDevice_newFrame;
+            VideoCaptureDevice.Start();
+        }
+
         private void VideoCaptureDevice_newFrame(object sender, NewFrameEventArgs eventArgs)
         {
             Bitmap bitmap = (Bitmap)eventArgs.Frame.Clone();
@@ -78,19 +95,6 @@ namespace WareHouse
             imgInquadra.Image = bitmap;
         }
 
-        private void Inquadra_Load(object sender, EventArgs e)
-        {
-            FilterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
-            foreach (FilterInfo device in FilterInfoCollection)
-                cmbFotocamera.Items.Add(device.Name);
-            cmbFotocamera.SelectedIndex = 0;
-
-            //vedere se seleziona la fotocamera qui o se le tre righe vanno spostate in un bottone
-            VideoCaptureDevice = new VideoCaptureDevice(FilterInfoCollection[cmbFotocamera.SelectedIndex].MonikerString);
-            VideoCaptureDevice.NewFrame += VideoCaptureDevice_newFrame;
-            VideoCaptureDevice.Start();
-        }
-
         private void Inquadra_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (VideoCaptureDevice != null)
@@ -102,27 +106,63 @@ namespace WareHouse
             }
         }
 
-        private void txtAggiungi_Click(object sender, EventArgs e)
-        {
-            if (txtNome.Text != "")
-            {
-                CProdotto daAggiungere = new CProdotto(txtNome.Text, Convert.ToDouble(txtCodice.Text), Convert.ToInt32(txtQuantita.Text)); //cambia in caso di immagine
-
-                if (ListaElencoPassata.cercaCodice(daAggiungere.getCodice()))
-                {
-                    ListaElencoPassata.aumentaQuantita(daAggiungere.getCodice(), daAggiungere.getQuantita());
-                } else ListaElencoPassata.Aggiungi(daAggiungere);
-
-                Pulisci();
-            }
-            else lblErroreNome.Text = ERRORENOME;
-        }
-
         void Pulisci()
         {
             txtCodice.Text = "";
             txtNome.Text = "";
             txtQuantita.Text = "1";
+
+            lblErroreCodice.Text = "";
+            lblErroreNome.Text = "";
+            lblNonPresente.Text = "";
+        }
+
+        private void btnAggiungi_Click(object sender, EventArgs e)
+        {
+            if (txtNome.Text != "")
+            {
+                if (txtCodice.Text != "")
+                {
+                    CProdotto daAggiungere = new CProdotto(txtNome.Text, Convert.ToDouble(txtCodice.Text), Convert.ToInt32(txtQuantita.Text)); //cambia in caso di immagine
+
+                    if (ListaElencoPassata.CercaPerCodice(daAggiungere.getCodice()))
+                    {
+                        ListaElencoPassata.AumentaQuantita(daAggiungere.getCodice(), daAggiungere.getQuantita());
+                    }
+                    else ListaElencoPassata.Aggiungi(daAggiungere);
+
+                    Pulisci();
+                }
+                else lblErroreCodice.Text = ERRORECAMPO;
+            }
+            else lblErroreNome.Text = ERRORECAMPO;
+        }
+
+        private void btnElimina_Click(object sender, EventArgs e)
+        {
+            if (txtCodice.Text != "")
+            {
+                if (ListaElencoPassata.RiduciPerCodice(Convert.ToDouble(txtCodice.Text), Convert.ToInt32(txtQuantita.Text))) Pulisci();
+                else lblNonPresente.Text = ERRORENONPRESENTE;
+            }
+            else lblErroreCodice.Text = ERRORECAMPO;
+        }
+
+        private void btnCerca_Click(object sender, EventArgs e)
+        {
+            if (txtCodice.Text != "")
+            {
+                if (ListaElencoPassata.CercaPerCodice(Convert.ToDouble(txtCodice.Text)))
+                {
+                    Elenco FinestraElenco = new Elenco(ListaElencoPassata, Convert.ToDouble(txtCodice.Text));
+                    FinestraElenco.Show();
+                    this.Hide();
+
+                    Pulisci();
+                }
+                else lblNonPresente.Text = ERRORENONPRESENTE;
+            }
+            else lblErroreCodice.Text = ERRORECAMPO;
         }
 
         private void btnQuantitaPiu_Click(object sender, EventArgs e)
