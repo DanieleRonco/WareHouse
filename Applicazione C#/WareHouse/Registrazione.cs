@@ -29,10 +29,10 @@ namespace WareHouse
 
         string ERROREOBBLIGATORI = "Attenzione! Nome e Cognome sono campi obbligatori!";
         string ERROREEMAIL = "Attenzione! Email non valida!";
-        string ERROREPASSWORD = "La Password deve essere lunga tra i 5 e i 10 caratteri\n" +
+        string ERROREPASSWORD = "La Password deve avere tra i 5 e i 10 caratteri\n" +
             "La Password deve contenere almeno 3 numeri\n" +
             "La Password deve contenere almeno 1 lettera maiuscola\n" +
-            "La Password può contenere solo lettere maiuscole e minuscole e numeri\n";
+            "La Password può contenere solo maiuscole, minuscole e numeri\n";
         string ERROREPASSWORDDIVERSE = "La Password e la Conferma Password devono essere uguali!\n";
 
         private void btnRegistrati_Click(object sender, EventArgs e)

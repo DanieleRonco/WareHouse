@@ -1,18 +1,21 @@
 Caso d'uso 4)
-	Nome: Rimozione di un prodotto dall'elenco dei prodotti presenti in magazzino
+	Nome: Riduzione di un prodotto dall'elenco dei prodotti presenti in magazzino - Inquadrando il codice a barre
 	Attori: Utente
 	Precondizioni:
 		1 L'utente ha avviato l'applicazione
 		2 L'utente ha effettuato l'accesso al proprio Account
 	Sequenza di eventi:
 		1 L'utente seleziona la voce "Inquadra"
-		2 L'utente inquadra il codice a barre del prodotto da rimuovere dall'elenco dei prodotti presenti in magazzino
-		3 Il sistema legge il codice a barre del prodotto da rimuovere dall'elenco dei prodotti presenti in magazzino
-		4 L'utente clicca il pulsante "-"
-		5 Il sistema rimuove il prodotto inquadrato dall'elenco dei prodotti presenti in magazzino
+		2 L'utente inquadra il codice a barre del prodotto da ridurre dall'elenco dei prodotti presenti in magazzino
+		3 Il sistema legge il codice a barre del prodotto da ridurre dall'elenco dei prodotti presenti in magazzino
+		4 L'utente indica la quantità del prodotto da ridurre dall'elenco dei prodotti presenti in magazzino
+		5 L'utente seleziona la voce "Riduci"
+		6 Il sistema riduce la quantità del prodotto inquadrato
 	Sequenze alternative:
 		1 L'utente può abbandonare la funzionalità in qualsiasi momento
-		2 L'utente clicca il pulsante "-" affianco al prodotto nell'elenco dei prodotti presenti in magazzino
-			2.1 Se la quantità del prodotto è pari a zero, il sistema rimuove il prodotto dall'elenco dei prodotti presenti in magazzino
+		2 La quantità diventa minore di zero
+			2.1 Il sistema mantiene la quantità pari a zero
+		3 Il prodotto non è presente nell'elenco dei prodotti presenti in magazzino
+			3.1 Il sistema mostra un messaggio di errore
 	Postcondizioni:
 		1 Il sistema resta in attesa di un'interazione da parte dell'utente

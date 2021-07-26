@@ -28,10 +28,10 @@ namespace WareHouse
         }
 
         string ERROREVECCHIAPASSWORD = "La Password inserita non è uguale a quella vecchia!";
-        string ERROREPASSWORD = "La Password deve essere lunga tra i 5 e i 10 caratteri\n" +
+        string ERROREPASSWORD = "La Password deve avere tra i 5 e i 10 caratteri\n" +
             "La Password deve contenere almeno 3 numeri\n" +
             "La Password deve contenere almeno 1 lettera maiuscola\n" +
-            "La Password può contenere solo lettere maiuscole e minuscole e numeri\n";
+            "La Password può contenere solo maiuscole, minuscole e numeri\n";
         string ERROREPASSWORDDIVERSE = "La Password e la Conferma Password devono essere uguali!\n";
 
         private void btnConferma_Click(object sender, EventArgs e)
@@ -46,6 +46,7 @@ namespace WareHouse
             string confermaPassword = txtConfermaPassword.Text;
 
             lblErroreVecchiaPassword.Text = "";
+            lblErrorePassword.Text = "";
 
             if(vecchiaPassword == vecchiaPasswordLetta)
             {

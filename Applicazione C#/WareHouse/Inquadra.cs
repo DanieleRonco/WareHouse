@@ -36,6 +36,7 @@ namespace WareHouse
         string ERRORECAMPO = "Campo " +
             "obbligatorio!";
         string ERRORENONPRESENTE = "Prodotto non presente!";
+        string ERRORECODICE = "Il Codice può solo contenere numeri!";
 
         private void btnImpostazioni_Click(object sender, EventArgs e)
         {
@@ -73,7 +74,6 @@ namespace WareHouse
                 cmbFotocamera.Items.Add(device.Name);
             cmbFotocamera.SelectedIndex = 0;
 
-            //vedere se seleziona la fotocamera qui o se le tre righe vanno spostate in un bottone
             VideoCaptureDevice = new VideoCaptureDevice(FilterInfoCollection[cmbFotocamera.SelectedIndex].MonikerString);
             VideoCaptureDevice.NewFrame += VideoCaptureDevice_newFrame;
             VideoCaptureDevice.Start();
@@ -124,55 +124,81 @@ namespace WareHouse
             lblNonPresente.Text = "";
         }
 
+        bool VerificaCodice()
+        {
+            string codice = txtCodice.Text;
+
+            for(int i = 0; i < codice.Length; i++)
+            {
+                if (codice.ElementAt(i) < 48 || codice.ElementAt(i) > 57) return false;
+            }
+            return true;
+        }
+
         private void btnAggiungi_Click(object sender, EventArgs e)
         {
             PulisciErrori();
-            if (txtNome.Text != "")
+
+            if (VerificaCodice())
             {
                 if (txtCodice.Text != "")
                 {
-                    CProdotto daAggiungere = new CProdotto(txtNome.Text, Convert.ToDouble(txtCodice.Text), Convert.ToInt32(txtQuantita.Text)); //cambia in caso di immagine
-
-                    if (ListaElencoPassata.CercaPerCodice(daAggiungere.getCodice()))
+                    if (txtNome.Text != "")
                     {
-                        ListaElencoPassata.AumentaQuantita(daAggiungere.getCodice(), daAggiungere.getQuantita());
-                    }
-                    else ListaElencoPassata.Aggiungi(daAggiungere);
+                        CProdotto daAggiungere = new CProdotto(txtNome.Text, Convert.ToDouble(txtCodice.Text), Convert.ToInt32(txtQuantita.Text));
 
-                    Pulisci();
+                        if (ListaElencoPassata.CercaPerCodice(daAggiungere.getCodice()))
+                        {
+                            ListaElencoPassata.AumentaQuantita(daAggiungere.getCodice(), daAggiungere.getQuantita());
+                        }
+                        else ListaElencoPassata.Aggiungi(daAggiungere);
+
+                        Pulisci();
+                    }
+                    else lblErroreNome.Text = ERRORECAMPO;
                 }
                 else lblErroreCodice.Text = ERRORECAMPO;
             }
-            else lblErroreNome.Text = ERRORECAMPO;
+            else lblErroreCodice.Text = ERRORECODICE;
         }
 
         private void btnElimina_Click(object sender, EventArgs e)
         {
             PulisciErrori();
-            if (txtCodice.Text != "")
+
+            if (VerificaCodice())
             {
-                if (ListaElencoPassata.RiduciPerCodice(Convert.ToDouble(txtCodice.Text), Convert.ToInt32(txtQuantita.Text))) Pulisci();
-                else lblNonPresente.Text = ERRORENONPRESENTE;
+                if (txtCodice.Text != "")
+                {
+                    if (ListaElencoPassata.RiduciPerCodice(Convert.ToDouble(txtCodice.Text), Convert.ToInt32(txtQuantita.Text))) Pulisci();
+                    else lblNonPresente.Text = ERRORENONPRESENTE;
+                }
+                else lblErroreCodice.Text = ERRORECAMPO;
             }
-            else lblErroreCodice.Text = ERRORECAMPO;
+            else lblErroreCodice.Text = ERRORECODICE;
         }
 
         private void btnCerca_Click(object sender, EventArgs e)
         {
             PulisciErrori();
-            if (txtCodice.Text != "")
-            {
-                if (ListaElencoPassata.CercaPerCodice(Convert.ToDouble(txtCodice.Text)))
-                {
-                    Elenco FinestraElenco = new Elenco(ListaElencoPassata, Convert.ToDouble(txtCodice.Text));
-                    FinestraElenco.Show();
-                    this.Hide();
 
-                    Pulisci();
+            if (VerificaCodice())
+            {
+                if (txtCodice.Text != "")
+                {
+                    if (ListaElencoPassata.CercaPerCodice(Convert.ToDouble(txtCodice.Text)))
+                    {
+                        Elenco FinestraElenco = new Elenco(ListaElencoPassata, Convert.ToDouble(txtCodice.Text));
+                        FinestraElenco.Show();
+                        this.Hide();
+
+                        Pulisci();
+                    }
+                    else lblNonPresente.Text = ERRORENONPRESENTE;
                 }
-                else lblNonPresente.Text = ERRORENONPRESENTE;
+                else lblErroreCodice.Text = ERRORECAMPO;
             }
-            else lblErroreCodice.Text = ERRORECAMPO;
+            else lblErroreCodice.Text = ERRORECODICE;
         }
 
         private void btnQuantitaPiu_Click(object sender, EventArgs e)

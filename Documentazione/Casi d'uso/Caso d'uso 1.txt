@@ -6,7 +6,7 @@ Caso d'uso 1)
 	Sequenza di eventi:
 		1 L'utente seleziona la voce "Crea Account"
 		2 Il sistema mostra una schermata nella quale si chiede l'inserimento delle informazioni
-		  necessarie per creare l'Account (email e password)
+		  necessarie per creare l'Account (nome, cognome, email e password)
 		3 L'utente inserisce le informazioni richieste
 		4 L'utente seleziona la voce "Conferma"
 		5 Il sistema memorizza le informazioni dell'Account appena creato

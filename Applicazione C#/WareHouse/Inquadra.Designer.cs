@@ -195,6 +195,7 @@
             this.txtQuantita.Location = new System.Drawing.Point(135, 322);
             this.txtQuantita.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtQuantita.Name = "txtQuantita";
+            this.txtQuantita.ReadOnly = true;
             this.txtQuantita.Size = new System.Drawing.Size(94, 20);
             this.txtQuantita.TabIndex = 12;
             this.txtQuantita.Text = "1";

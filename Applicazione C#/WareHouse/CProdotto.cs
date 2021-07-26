@@ -79,7 +79,7 @@ namespace WareHouse
 
         public string toCsv()
         {
-            return this.nome + ";" + this.codice + ";" + this.quantita + ";" + this.immagine + ";"; //cambia in caso di immagine
+            return this.nome + ";" + this.codice + ";" + this.quantita + ";" + this.immagine + ";";
         }
     }
 }

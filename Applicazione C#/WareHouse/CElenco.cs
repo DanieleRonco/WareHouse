@@ -42,7 +42,7 @@ namespace WareHouse
 					linea = Linee[i];
 					string[] campi = linea.Split(';');
 
-					pTemp = new CProdotto(campi[0], Convert.ToDouble(campi[1]), Convert.ToInt32(campi[2]), campi[3]); //cambia in caso di immagine
+					pTemp = new CProdotto(campi[0], Convert.ToDouble(campi[1]), Convert.ToInt32(campi[2]), campi[3]);
 					ListaElenco.Add(pTemp);
 				}
 			}

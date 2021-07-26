@@ -3,8 +3,9 @@ DOCUMENTO DEI REQUISITI
 Requisiti funzionali:
 	- [MUST] L'utente aggiunge un prodotto all'elenco dei prodotti in magazzino indicando tutte le informazioni necessarie e ad esso associate.
 	- [MUST] L'utente aggiunge un prodotto all'elenco dei prodotti in magazzino inquadrandone il codice a barre.
-	- [MUST] L'utente rimuove un prodotto dall'elenco dei prodotti in magazzino diminuendone la quantità.
-	- [MUST] L'utente rimuove un prodotto dall'elenco dei prodotti in magazzino inquadrandone il codice a barre.
+	- [MUST] L'utente rimuove un prodotto dall'elenco dei prodotti in magazzino premendo un pulsante.
+	- [MUST] L'utente riduce la quantità di un prodotto dell'elenco dei prodotti in magazzino premendo un pulsante.
+	- [MUST] L'utente riduce la quantità di un prodotto dell'elenco dei prodotti in magazzino inquadrandone il codice a barre.
 	- [MUST] L'utente visualizza l'elenco dei prodotti in magazzino.
 	- [MUST] L'utente cerca un prodotto nell'elenco dei prodotti in magazzino.
 	- [MUST] L'utente crea e accede ad un account.
@@ -12,7 +13,6 @@ Requisiti funzionali:
 Requisiti Non-Funzionali:
 	- [MUST] L'aggiunta di un prodotto all'elenco dei prodotti in magazzino inquadrando il codice a barre deve avvenire in meno di cinque secondi.
 	- [MUST] Nella visualizzazione dell'elenco per ogni prodotto viene indicata la quantità presente in magazzino.
-	- [SHOULD] I prodotti dell'elenco possono essere suddivisi in categorie.
 
 Requisiti Tecnologici:
 	- [MUST] L'elenco dei prodotti in magazzino risiede in un database locale (file).

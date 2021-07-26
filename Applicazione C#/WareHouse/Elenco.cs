@@ -79,7 +79,6 @@ namespace WareHouse
         {
             lstElenco.Items.Clear();
             
-            //imageListLarge.Images.Add(Bitmap.FromFile("C:\\MyLargeImage2.bmp"));
             for (int i = 0; i < listaPassata.Count(); i++)
             {
                 var item = new ListViewItem(new[] { listaPassata.ElementAt(i).getNome(), listaPassata.ElementAt(i).getCodice().ToString(), listaPassata.ElementAt(i).getQuantita().ToString() });
