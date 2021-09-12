@@ -1,0 +1,92 @@
+C:\Users\PC-Fisso\Desktop\WareHouse\bin\Debug\WareHouse.exe.config
+C:\Users\PC-Fisso\Desktop\WareHouse\bin\Debug\WareHouse.exe
+C:\Users\PC-Fisso\Desktop\WareHouse\bin\Debug\WareHouse.pdb
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.csprojAssemblyReference.cache
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.Properties.Resources.resources
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.csproj.GenerateResource.cache
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.exe
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.pdb
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.Main.resources
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.Registrazione.resources
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.Accesso.resources
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.Elenco.resources
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.Impostazioni.resources
+C:\Users\PC-Fisso\Desktop\WareHouse\obj\Debug\WareHouse.CambioPassword.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\WareHouse.exe.config
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\WareHouse.exe
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\WareHouse.pdb
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.csprojAssemblyReference.cache
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.Accesso.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.CambioPassword.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.Elenco.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.Impostazioni.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.Main.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.Properties.Resources.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.Registrazione.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.csproj.GenerateResource.cache
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.exe
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.pdb
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.Inquadra.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\AForge.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\AForge.Video.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\zxing.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\zxing.presentation.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\AForge.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\AForge.Video.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\zxing.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\bin\Debug\zxing.presentation.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse\obj\Debug\WareHouse.csproj.CopyComplete
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\WareHouse.exe.config
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\WareHouse.exe
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\WareHouse.pdb
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\AForge.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\AForge.Video.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\zxing.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\zxing.presentation.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\AForge.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\AForge.Video.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\zxing.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\bin\Debug\zxing.presentation.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.csprojAssemblyReference.cache
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.Accesso.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.CambioPassword.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.Elenco.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.Impostazioni.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.Inquadra.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.Main.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.Properties.Resources.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.Registrazione.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.csproj.GenerateResource.cache
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.csproj.CopyComplete
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.exe
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Applicazione C#\WareHouse\obj\Debug\WareHouse.pdb
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\WareHouse.exe.config
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\WareHouse.exe
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\WareHouse.pdb
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\AForge.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\AForge.Video.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\zxing.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\zxing.presentation.dll
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\AForge.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\AForge.Video.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\zxing.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\bin\Debug\zxing.presentation.xml
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.csprojAssemblyReference.cache
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.Accesso.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.CambioPassword.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.Elenco.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.Impostazioni.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.Inquadra.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.Main.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.Properties.Resources.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.Registrazione.resources
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.csproj.GenerateResource.cache
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.csproj.CopyComplete
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.exe
+C:\Users\PC-Fisso\Desktop\Progetto Tecnologie\Prototipi\WareHouse_2\obj\Debug\WareHouse.pdb
